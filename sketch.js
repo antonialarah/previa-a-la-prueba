@@ -266,6 +266,7 @@ function setup() {
      trabajitos.forEach((x)=>{
         document.querySelector("#portafolio").innerHTML += `<div><img src="${x.photo}"><p>${x.title}</p></div>`;
     });
+     document.querySelector("#autoria").innerHTML = yo.antonia;
     
     
     //Ahora vuelvo al p5.js
