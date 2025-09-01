@@ -235,7 +235,7 @@ var otrxs = [];
 
 
 datos.forEach((x) => {
-    if (x.nombre == "Vicente Medina") {
+    if (x.nombre == "Antonia Lara") {
         yo = x;
     } else {
         otrxs.push(x);
