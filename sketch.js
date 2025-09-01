@@ -20,7 +20,8 @@ const trabajitos = [
         title: "INFOGRAFIA TACONES",
         description: "Trabajo de Proyecto |||, con Prof. Menteguiaga",
     },
-    ];
+    
+    ]
 
 const datos = [
     {
