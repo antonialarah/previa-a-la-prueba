@@ -262,15 +262,11 @@ function setup() {
     otrxs.forEach((x)=>{
         document.querySelector("#otredad").innerHTML += `<div><a href="${x.cuenta}"><img src="${x.foto}" title="${x.esperado}"></a></div>`;
     });
-    
-    //copy paste
+    //Copy-paste, y arreglín
      trabajitos.forEach((x)=>{
         document.querySelector("#portafolio").innerHTML += `<div><img src="${x.photo}"><p>${x.title}</p></div>`;
     });
-     document.querySelector("#autoria").innerHTML = yo.antonia;
-    
-    
-    //Ahora vuelvo al p5.js
+        //Ahora vuelvo al p5.js
     noStroke();
 }
 
