@@ -234,7 +234,7 @@ var otrxs = [];
 
 
 datos.forEach((x) => {
-    if (x.nombre == "Antonia Lara") {
+    if (x.nombre == "Vicente Medina") {
         yo = x;
     } else {
         otrxs.push(x);
@@ -261,11 +261,14 @@ function setup() {
     otrxs.forEach((x)=>{
         document.querySelector("#otredad").innerHTML += `<div><a href="${x.cuenta}"><img src="${x.foto}" title="${x.esperado}"></a></div>`;
     });
-    //Copy-paste, y arreglín
+    
+    //copy paste
      trabajitos.forEach((x)=>{
         document.querySelector("#portafolio").innerHTML += `<div><img src="${x.photo}"><p>${x.title}</p></div>`;
     });
-        //Ahora vuelvo al p5.js
+    
+    
+    //Ahora vuelvo al p5.js
     noStroke();
 }
 
@@ -290,3 +293,5 @@ function draw() {
 }
 
 function windowResized() {
+    resizeCanvas(valor, valor);
+}
