@@ -1,7 +1,7 @@
 const datos = [
     {
         id: 1,
-        foto: "https://ucampus.uchile.cl/d/r/usuario/99/991a2c1f191ccfcfc0fe2525db45303e/perfil/7d0ca9e947225ce2ad0d5e5f63afa1ee.jpg",
+        foto: "https://github.com/antonialarah/previa-a-la-prueba/blob/main/img/FOTO%201.webp?raw=true",
         cuenta: "https://github.com/Kupaa-0",
         nombre: "Claudio Abarca",
         esperado: "espero aprender programación y mejor uso de web.",
