@@ -25,15 +25,21 @@ const trabajitos = [
         description: "Proyecto ||, Rene Perea",
     },
     {
+        photo: "https://github.com/antonialarah/previa-a-la-prueba/blob/main/img/FOTO%204.webp?raw=true",
+        title: "INFOGRAFÍA TACONES",
+        description: "Proyecto |||, Clarisa Menteguiaga",
+    },
+    {
         photo: "https://github.com/antonialarah/previa-a-la-prueba/blob/main/img/FOTO%203.webp?raw=true",
         title: "INFOGRAFÍA PROTECT THE DOLLS",
         description: "Proyecto |||, Clarisa Menteguiaga",
    
     },
     {
-        photo: "https://github.com/antonialarah/previa-a-la-prueba/blob/main/img/FOTO%204.webp?raw=true",
-        title: "INFOGRAFÍA TACONES",
+        photo: "https://github.com/antonialarah/previa-a-la-prueba/blob/main/img/Sin%20ti%CC%81tulo-3.webp?raw=true",
+        title: "FANZINE PROTECT THE DOLLS",
         description: "Proyecto |||, Clarisa Menteguiaga",
+   
     },
     
     ]
