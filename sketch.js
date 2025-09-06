@@ -2,23 +2,23 @@ const trabajitos = [
     {
         photo: "https://github.com/antonialarah/previa-a-la-prueba/blob/main/img/FOTO%201.webp?raw=true",
         title: "FIGURA 3D PAPEL",
-        description: "Proyecto |, con Prof. Perea",
+        description: "Proyecto |, con Prof. Rene Perea",
     },
     {
         photo: "https://github.com/antonialarah/previa-a-la-prueba/blob/main/img/FOTO%202.webp?raw=true",
         title: "PORTADA VINILO",
-        description: "Proyecto |, con Prof. Perea",
+        description: "Proyecto |, con Prof. Rene Perea",
     },
     {
         photo: "https://github.com/antonialarah/previa-a-la-prueba/blob/main/img/FOTO%203.webp?raw=true",
         title: "INFOGRAFIA PROTECT THE DOLLS",
-        description: "Proyecto |||, con Prof. Menteguiaga",
+        description: "Proyecto |||, con Prof. Clarisa Menteguiaga",
    
     },
     {
         photo: "https://github.com/antonialarah/previa-a-la-prueba/blob/main/img/FOTO%204.webp?raw=true",
         title: "INFOGRAFIA TACONES",
-        description: "Proyecto |||, con Prof. Menteguiaga",
+        description: "Proyecto |||, con Prof. Clarisa Menteguiaga",
     },
     
     ]
