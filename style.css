@@ -21,7 +21,7 @@ canvas {
 }
 
 main {
-    text-align: left;
+    text-align: center;
     width: min(90vw, 900px);
     margin: 5% auto;
     background:white;
