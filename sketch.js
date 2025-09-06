@@ -310,7 +310,6 @@ function draw() {
     push();
     fill("rgb(224, 71, 55)");
     translate(0, -110, -15);     //sombrero
-    translate(0, 95);
     cylinder(70, 40);
     pop();
     
