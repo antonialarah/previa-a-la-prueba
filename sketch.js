@@ -258,15 +258,16 @@ function setup() {
     select("#nombre").html(yo.nombre);
     select("#aprendizaje").html(yo.esperado);
     select("#cuantos").html(otrxs.length);
-    //Lo que sigue es JavaScript a secas
-    otrxs.forEach((x)=>{
-        document.querySelector("#otredad").innerHTML += `<div><a href="${x.cuenta}"><img src="${x.foto}" title="${x.esperado}"></a></div>`;
+    
+    otrxs.forEach((x) => {
+        document.querySelector("#otredad").innerHTML +=
+            `<div><a href="${x.cuenta}"><img src="${x.foto}" title="${x.esperado}"></a></div>`;
     });
-    //Copy-paste, y arreglín
-     trabajitos.forEach((x)=>{
+    trabajos.forEach((x) => {
         document.querySelector("#portafolio").innerHTML += `<div><img src="${x.photo}"><p>${x.title}</p></div>`;
     });
-        //Ahora vuelvo al p5.js
+    document.querySelector("#autoria").innerHTML += yo.nombre;
+    
     noStroke();
 }
 
