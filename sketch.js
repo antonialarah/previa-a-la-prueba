@@ -281,7 +281,7 @@ otrxs.forEach((x)=>{
 }
 
 function draw() {
-    background("white");
+    background("pink");
     orbitControl();
     pointLight(255, 255, 255, valor / 1, valor / 1, 20);
     specularMaterial(255);
