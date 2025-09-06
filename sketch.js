@@ -309,20 +309,20 @@ function draw() {
     
     push();
     fill("rgb(224, 71, 55)");
-    translate(0, -140, -15);     //sombrero
-    cylinder(80, 50);
+    translate(0, -115, -15);     //sombrero
+    cylinder(70, 40);
     pop();
     
     push();
     fill("rgb(224, 71, 55)");      
-    translate(0, -80, -20); //sombrero parte de abajo
-    cylinder(120, 30);
+    translate(0, -70, -20); //sombrero parte de abajo
+    cylinder(100, 30);
     pop();
 
     push();
     fill("white");
-    translate(0, -100, -15);   //sombrero franja
-    cylinder(85, 40);
+    translate(0, -90, -15);   //sombrero franja
+    cylinder(75, 20);
     pop();
     
     push();
@@ -341,7 +341,7 @@ function draw() {
 
     push();
     fill("black");
-    translate(0, -valor / 30, 60);    //lente linea del medio
+    translate(0, -valor / 30, 50);    //lente linea del medio
     cylinder(20, 10);
     pop();
     
@@ -359,20 +359,20 @@ function draw() {
     
     push();
     fill("black");
-    translate(0, valor / 30, 60);    //boca
+    translate(0, valor / 30, 50);    //boca
     torus(valor / 14, valor / 80);
     pop();
     
     push();
     fill("black");
-    translate(-valor / 10, -valor / 50, 75);  //pupilas
+    translate(-valor / 10, -valor / 50, 60);  //pupilas
     rotate(radians(150), [1, 0, 0]);
     torus(16, valor / 80);
     pop();
     
     push();
     fill("black");
-    translate(valor / 10, -valor / 50, 75);  //pupilas
+    translate(valor / 10, -valor / 50, 60);  //pupilas
     rotate(radians(150), [1, 0, 0]);
     torus(16, valor / 80);
     pop();
