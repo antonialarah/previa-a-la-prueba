@@ -10,6 +10,11 @@ const trabajitos = [
         description: "Proyecto |, con Prof. Rene Perea",
     },
     {
+        photo: "https://github.com/antonialarah/previa-a-la-prueba/blob/main/img/foto-5.webp?raw=true",
+        title: "EVOLUCIÓN DE ESPECIES",
+        description: "Proyecto ||, con Prof. Rene Perea",
+    },
+    {
         photo: "https://github.com/antonialarah/previa-a-la-prueba/blob/main/img/FOTO%203.webp?raw=true",
         title: "INFOGRAFIA PROTECT THE DOLLS",
         description: "Proyecto |||, con Prof. Clarisa Menteguiaga",
