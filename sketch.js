@@ -319,7 +319,7 @@ function draw() {
     
     push();
     fill("rgb(224, 71, 55)");
-    translate(0, -110, -15);     //sombrero
+    translate(0, -115, -15);     //sombrero
     cylinder(70, 40);
     pop();
     
