@@ -350,11 +350,11 @@ function draw() {
     translate(valor / 6, valor / 30, valor / 14);    //mejilla
     sphere(17);
     pop();
-    
+
     push();
     fill("rgb(247, 161, 144)");
-    translate(-valor / 6, valor / 30, valor / 10);    //mejilla
-    sphere(20);
+    translate(-valor / 6, valor / 30, valor / 14);    //mejilla
+    sphere(17);
     pop();
     
     push();
