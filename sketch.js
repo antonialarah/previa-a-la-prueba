@@ -1,7 +1,7 @@
 const trabajitos = [
     {
         photo: "https://github.com/antonialarah/previa-a-la-prueba/blob/main/img/FOTO%201.webp?raw=true",
-        title: "FIGURA 3D PAPEL "INTENSIDAD"",
+        title: "FIGURA 3D PAPEL INTENSIDAD",
         description: "Proyecto |, con Prof. Rene Perea",
     },
     {
@@ -16,7 +16,7 @@ const trabajitos = [
     },
     {
         photo: "https://github.com/antonialarah/previa-a-la-prueba/blob/main/img/FOTO%203.webp?raw=true",
-        title: "INFOGRAFÍA "PROTECT THE DOLLS"",
+        title: "INFOGRAFÍA PROTECT THE DOLLS",
         description: "Proyecto |||, con Prof. Clarisa Menteguiaga",
    
     },
