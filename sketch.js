@@ -259,15 +259,19 @@ function setup() {
     select("#aprendizaje").html(yo.esperado);
     select("#cuantos").html(otrxs.length);
     
-    otrxs.forEach((x) => {
-        document.querySelector("#otredad").innerHTML +=
-            `<div><a href="${x.cuenta}"><img src="${x.foto}" title="${x.esperado}"></a></div>`;
+otrxs.forEach((x)=>{
+        document.querySelector("#otredad").innerHTML += `<div><a href="${x.cuenta}"><img src="${x.foto}" title="${x.esperado}"></a></div>`;
     });
-    trabajos.forEach((x) => {
-        document.querySelector("#portafolio").innerHTML += `<div><img src="${x.photo}"><p>${x.title}</p></div>`;
-    });
-    document.querySelector("#autoria").innerHTML += yo.nombre;
     
+    //copy paste
+     trabajitos.forEach((x)=>{
+        document.querySelector("#portafolio").innerHTML += `<div> <img src="${x.photo}"> <h3>${x.title}</h3> <p>${x.description}</p> </div>`;
+    });
+
+    document.querySelector("#autoria").innerHTML = yo.nombre;
+    
+    
+    //Ahora vuelvo al p5.js
     noStroke();
 }
 
