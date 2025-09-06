@@ -344,11 +344,11 @@ function draw() {
     translate(0, -valor / 30, 50);    //lente linea del medio
     cylinder(20, 10);
     pop();
-    
+
     push();
     fill("rgb(247, 161, 144)");
-    translate(valor / 6, valor / 30, valor / 10);    //mejilla
-    sphere(20);
+    translate(valor / 6, valor / 30, valor / 14);    //mejilla
+    sphere(17);
     pop();
     
     push();
