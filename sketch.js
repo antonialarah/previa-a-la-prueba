@@ -5,6 +5,11 @@ const trabajitos = [
         description: "Proyecto |, con Prof. Rene Perea",
     },
     {
+        photo: "https://github.com/antonialarah/previa-a-la-prueba/blob/main/img/IMG_7897.webp?raw=true",
+        title: "OBJETO LUMÍNICO DE PAPEL INTENSIDAD/AGUDO",
+        description: "Proyecto |, con Prof. Rene Perea",
+    },
+    {
         photo: "https://github.com/antonialarah/previa-a-la-prueba/blob/main/img/FOTO%202.webp?raw=true",
         title: "VINILO DEATH NOTE X TWENTY ONE PILOTS",
         description: "Proyecto |, con Prof. Rene Perea",
