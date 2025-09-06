@@ -283,25 +283,100 @@ otrxs.forEach((x)=>{
 function draw() {
     background("white");
     orbitControl();
-    pointLight(255, 255, 255, valor / 3, valor / 2, 50);
+    pointLight(255, 255, 255, valor / 1, valor / 1, 20);
     specularMaterial(255);
-    shininess(50);
+    shininess(200);
     metalness(1);
+    ambientLight(200);
 
-    // Ojo con el push()
     push();
-    fill("red");
-    translate(0, -valor / 4, -valor / 7);
+    fill("rgb(248, 199, 166)");
+    translate(0, -valor / 20, -valor / 20);   //cara
     sphere(valor / 4);
     pop();
-    // Ojo con el pop()
-    // Ojo con el push()
+    
     push();
-    fill("blue");
-    sphere(valor / 5);
+    fill("black");
+    translate(valor / 10, -valor / 30, valor / 5);    //lentes
+    torus(valor / 14, valor / 80);
     pop();
-    // Ojo con el pop()
 
+    push();
+    fill("black");
+    translate(-valor / 10, -valor / 30, valor / 5);    //lentes
+    torus(valor / 14, valor / 80);
+    pop();
+    
+    push();
+    fill("rgb(224, 71, 55)");
+    translate(0, -140, -15);     //sombrero
+    cylinder(80, 50);
+    pop();
+    
+    push();
+    fill("rgb(224, 71, 55)");      
+    translate(0, -80, -20); //sombrero parte de abajo
+    cylinder(120, 30);
+    pop();
+
+    push();
+    fill("white");
+    translate(0, -100, -15);   //sombrero franja
+    cylinder(85, 40);
+    pop();
+    
+    push();
+    fill("white");
+    translate(-valor / 10, -valor / 30, valor / 5);     //hojos
+    rotate(95.8,[30,0,0]);
+    cylinder(valor / 14, valor / 80);
+    pop();
+    
+    push();
+    fill("white");
+    translate(valor / 10, -valor / 30, valor / 5);     //hojos
+    rotate(95.8,[30,0,0]);
+    cylinder(valor / 14, valor / 80);
+    pop();
+
+    push();
+    fill("black");
+    translate(0, -valor / 30, 60);    //lente linea del medio
+    cylinder(20, 10);
+    pop();
+    
+    push();
+    fill("rgb(247, 161, 144)");
+    translate(valor / 6, valor / 30, valor / 10);    //mejilla
+    sphere(20);
+    pop();
+    
+    push();
+    fill("rgb(247, 161, 144)");
+    translate(-valor / 6, valor / 30, valor / 10);    //mejilla
+    sphere(20);
+    pop();
+    
+    push();
+    fill("black");
+    translate(0, valor / 30, 60);    //boca
+    torus(valor / 14, valor / 80);
+    pop();
+    
+    push();
+    fill("black");
+    translate(-valor / 10, -valor / 50, 75);  //pupilas
+    rotate(radians(150), [1, 0, 0]);
+    torus(16, valor / 80);
+    pop();
+    
+    push();
+    fill("black");
+    translate(valor / 10, -valor / 50, 75);  //pupilas
+    rotate(radians(150), [1, 0, 0]);
+    torus(16, valor / 80);
+    pop();
+    
 }
 
 function windowResized() {
