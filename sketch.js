@@ -2,38 +2,38 @@ const trabajitos = [
     {
         photo: "https://github.com/antonialarah/previa-a-la-prueba/blob/main/img/FOTO%201.webp?raw=true",
         title: "FIGURA 3D PAPEL INTENSIDAD",
-        description: "Proyecto |, con Prof. Rene Perea",
+        description: "Proyecto |, Rene Perea",
     },
     {
         photo: "https://github.com/antonialarah/previa-a-la-prueba/blob/main/img/IMG_7897.webp?raw=true",
         title: "OBJETO LUMÍNICO DE PAPEL INTENSIDAD/AGUDO",
-        description: "Proyecto |, con Prof. Rene Perea",
+        description: "Proyecto |, Rene Perea",
     },
     {
         photo: "https://github.com/antonialarah/previa-a-la-prueba/blob/main/img/FOTO%202.webp?raw=true",
         title: "VINILO DEATH NOTE X TWENTY ONE PILOTS",
-        description: "Proyecto |, con Prof. Rene Perea",
+        description: "Proyecto |, Rene Perea",
     },
     {
         photo: "https://github.com/antonialarah/previa-a-la-prueba/blob/main/img/foto-5.webp?raw=true",
         title: "EVOLUCIÓN DE ESPECIES",
-        description: "Proyecto ||, con Prof. Rene Perea",
+        description: "Proyecto ||, Rene Perea",
     },
     {
         photo: "https://github.com/antonialarah/previa-a-la-prueba/blob/main/img/FOTO%206.webp?raw=true",
         title: "PHOTOSHOOT ENCENDEDOR",
-        description: "Proyecto ||, con Prof. Rene Perea",
+        description: "Proyecto ||, Rene Perea",
     },
     {
         photo: "https://github.com/antonialarah/previa-a-la-prueba/blob/main/img/FOTO%203.webp?raw=true",
         title: "INFOGRAFÍA PROTECT THE DOLLS",
-        description: "Proyecto |||, con Prof. Clarisa Menteguiaga",
+        description: "Proyecto |||, Clarisa Menteguiaga",
    
     },
     {
         photo: "https://github.com/antonialarah/previa-a-la-prueba/blob/main/img/FOTO%204.webp?raw=true",
         title: "INFOGRAFÍA TACONES",
-        description: "Proyecto |||, con Prof. Clarisa Menteguiaga",
+        description: "Proyecto |||, Clarisa Menteguiaga",
     },
     
     ]
