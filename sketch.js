@@ -299,8 +299,6 @@ otrxs.forEach((x)=>{
 function draw() {
     background("pink");
     orbitControl();
-    pointLight(255, 255, 255, valor / 1, valor / 1, 20);
-    specularMaterial(255);
     shininess(200);
     metalness(1);
     ambientLight(200);
